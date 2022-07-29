@@ -1,5 +1,10 @@
-import { useState } from "react";
-
-export default function App() {
-  return <div className="text-red-300">Hello World</div>;
-}
+import React from "react";
+import TextField from "./components/TextField";
+const App: React.FC = () => {
+  return (
+    <div>
+      <TextField name="email" type="text" />
+    </div>
+  );
+};
+export default App;
